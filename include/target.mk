@@ -31,7 +31,8 @@ DEFAULT_PACKAGES:=\
   luci-app-aliddns \
   luci-app-upnp \
   ddns-scripts_aliyun \
-  luci-app-vlmcsd
+  luci-app-vlmcsd \
+  luci-app-openclash
 
 ifneq ($(CONFIG_SELINUX),)
 DEFAULT_PACKAGES+=busybox-selinux procd-selinux
