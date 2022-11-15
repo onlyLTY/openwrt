@@ -27,11 +27,11 @@ DEFAULT_PACKAGES:=\
 	urandom-seed \
 	urngd \
 	default-settings \
-        luci \
-        luci-app-aliddns \
-        luci-app-upnp \
-        ddns-scripts_aliyun \
-        luci-app-vlmcsd
+  luci \
+  luci-app-aliddns \
+  luci-app-upnp \
+  ddns-scripts_aliyun \
+  luci-app-vlmcsd
 
 ifneq ($(CONFIG_SELINUX),)
 DEFAULT_PACKAGES+=busybox-selinux procd-selinux
